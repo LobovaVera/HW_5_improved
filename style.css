@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background: var(--020-a-18, #020a18);
+  padding: 39px 388px 46px 388px;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100vw;
+}
+
+/* top part */
+.header {
+  padding-bottom: 199px;
+}
+.heading_nav {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.nav {
+  color: var(--ffffff, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.main {
+  display: grid;
+  grid-template-columns: 31vw 21.5vw;
+  justify-content: center;
+  gap: 128px;
+}
+.left-text {
+  width: 59.6vw;
+}
+.subtitle_main {
+  color: var(--3-a-68-b-8, #3a68b8);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.main_title {
+  color: var(--ffffff, #fff);
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%;
+  width: 31vw;
+  padding-bottom: 40px;
+  max-width: 604px;
+}
+.dsc {
+  color: var(--ffffff, #fff);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  opacity: 0.7;
+  width: 29vw;
+  max-width: 558px;
+}
+.main_btn {
+  color: var(--ffffff, #fff);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 5px;
+  background: var(--3-a-68-b-8, #3a68b8);
+  display: inline-flex;
+  padding: 15px 30px;
+  gap: 10px;
+}
+.main_btn_box {
+  display: flex;
+  gap: 20px;
+  padding-top: 50px;
+}
+.main_logos {
+  padding-top: 197px;
+  padding-bottom: 99px;
+}
+.logos_box {
+  display: flex;
+  gap: 56px;
+  justify-content: center;
+}
+/* second block - top part*/
+.second_top {
+  display: grid;
+  grid-template-columns: 31vw 21.5vw;
+  justify-content: center;
+  gap: 128px;
+  padding-top: 157px;
+}
+.second_top_title {
+  color: var(--ffffff, #fff);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  padding-bottom: 30px;
+  width: 31vw;
+  max-width: 548px;
+}
+.second_top_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.second_top_dsc {
+  max-width: 460px;
+}
+/* middle part */
+
+.content {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 362px);
+  justify-content: center;
+  padding-top: 264px;
+  padding-bottom: 243px;
+  padding: 388px 39px 388px 46px;
+}
+.item {
+  display: grid;
+  border-radius: 10px;
+  background: #132035;
+  padding: 30px;
+  justify-items: center;
+  gap: 30px;
+}
+.item_big {
+  display: grid;
+  grid-column: span 2;
+  grid-row: span 2;
+  gap: 60px;
+}
+
+.award_title {
+  color: var(--ffffff, #fff);
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  opacity: 0.7;
+}
+
+.dsc_content {
+  color: var(--ffffff, #fff);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  opacity: 0.7;
+  padding-bottom: 30px;
+}
+
+.award_title_big {
+  padding-bottom: 60px;
+}
+
+/* lower part*/
+.bottom_content {
+  display: grid;
+  grid-template-columns: 28vw 29vw;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 243px;
+  margin-bottom: 221px;
+}
+.bottom_title {
+  color: var(--ffffff, #fff);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  padding-bottom: 40px;
+  max-width: 548px;
+}
+.bottom_dsc {
+  padding-bottom: 20px;
+  max-width: 460px;
+}
+
+/* footer*/
+
+.footer {
+  display: grid;
+  grid-template-columns: 20vw 20vw 20vw;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-title {
+  color: var(--ffffff, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 33px;
+}
+.footer-contacts {
+  color: var(--ffffff, #fff);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.footer-about-text {
+  color: var(--ffffff, #fff);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: normal;
+  opacity: 0.6;
+  max-width: 200px;
+}
+.footer-email {
+  color: var(--ffffff, #fff);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.footer-icon {
+  margin-right: 24px;
+}
